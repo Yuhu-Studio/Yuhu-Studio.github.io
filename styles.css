@@ -98,8 +98,8 @@ a {
 
 /* 사이드바 이미지 스타일 */
 #profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     display: block;
     margin: 20px auto;
