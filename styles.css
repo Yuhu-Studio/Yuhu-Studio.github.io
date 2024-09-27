@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+nav ul li.active {
+    font-weight: bold;
+    color: blue;
+}
+
+main {
+    margin-right: 220px; /* nav와의 간격 */
+    padding: 20px;
+}
+
+section {
+    height: 100vh; /* 각 섹션의 높이 */
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
