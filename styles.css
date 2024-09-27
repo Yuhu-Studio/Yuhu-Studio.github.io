@@ -2,6 +2,7 @@ body {
     display: flex;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* 연한 하늘색 배경 */
 }
 
 nav {
@@ -10,7 +11,7 @@ nav {
     right: 0;
     width: 200px;
     height: 100%;
-    background: #f0f0f0;
+    background: #b2ebf2; /* 하늘색 내비게이션 */
     padding: 20px;
 }
 
@@ -26,7 +27,7 @@ nav ul li {
 
 nav ul li.active {
     font-weight: bold;
-    color: blue;
+    color: #0097a7; /* 강조 색상 */
 }
 
 main {
@@ -37,5 +38,29 @@ main {
 section {
     height: 100vh; /* 각 섹션의 높이 */
     padding: 20px;
-    border-bottom: 1px solid #ccc;
+    background-color: white; /* 섹션 배경색 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    margin-bottom: 20px; /* 섹션 간 간격 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+section h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #00796b; /* 섹션 제목 색상 */
+}
+
+section h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #00796b; /* 제목 색상 */
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section ul li {
+    margin: 5px 0;
 }
