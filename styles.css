@@ -25,22 +25,25 @@
 }
 
 #sidebar ul li {
-    padding: 12px 20px; /* 패딩 조정으로 일관된 높이 유지 */
-    margin-bottom: 10px; /* 메뉴 항목간 간격 */
+    margin-bottom: 20px; /* 메뉴 항목간 간격 조정 */
     cursor: pointer;
     font-size: 18px;
+    color: white;
     transition: color 0.3s, background-color 0.3s; /* 배경 및 색상 변화 효과 */
-    display: block; /* 블록 레벨 요소로 설정 */
-    width: calc(100% - 40px); /* 패딩을 고려한 너비 */
-    box-sizing: border-box; /* 패딩 포함하여 너비 계산 */
+    padding: 15px 20px; /* 패딩 조정 */
+    display: block;
+    width: 100%; /* 전체 너비 사용 */
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
 }
 
 
 /* 활성화된 메뉴 항목 스타일 */
 #sidebar ul li.active {
-    background-color: white; /* 배경을 흰색으로 변경 */
-    color: #28b676; /* 텍스트 색상을 흰색 계통으로 변경 */
-    font-weight: bold; /* 글씨를 굵게 */
+    background-color: white; /* 활성화 시 배경을 흰색으로 변경 */
+    color: #28b676; /* 활성화 시 텍스트 색상을 변경 */
+    font-weight: bold;
+    width: 100%; /* 전체 너비 사용 */
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
     
     
 }
