@@ -103,7 +103,6 @@ a:hover {
 /* 사이드바 이미지 스타일 */
 #profile-pic {
     width: 100%; /* 사이드바 너비에 맞게 이미지 크기 조정 */
-    max-width: 150px; /* 최대 너비 제한 */
     height: auto; /* 비율 유지 */
     border-radius: 50%; /* 원형 이미지 */
     display: block;
