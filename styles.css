@@ -18,7 +18,7 @@
 }
 
 #sidebar ul li {
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* 메뉴 항목간 간격 */
     cursor: pointer;
     font-size: 18px;
     color: white;
