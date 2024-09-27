@@ -96,6 +96,18 @@ a {
     text-decoration: none;
 }
 
+/* 사이드바 이미지 스타일 */
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
 a:hover {
     text-decoration: underline;
 }
