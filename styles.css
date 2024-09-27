@@ -1,66 +1,101 @@
-body {
-    display: flex;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* 연한 하늘색 배경 */
-}
-
-nav {
+/* 사이드바 네비게이션 스타일 */
+#sidebar {
     position: fixed;
     top: 0;
-    right: 0;
-    width: 200px;
+    left: 0;
     height: 100%;
-    background: #b2ebf2; /* 하늘색 내비게이션 */
+    width: 200px;
+    background-color: #333;
+    color: white;
     padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+#sidebar ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav ul li {
-    margin: 15px 0;
+#sidebar ul li {
+    margin-bottom: 20px;
     cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s;
 }
 
-nav ul li.active {
-    font-weight: bold;
-    color: #0097a7; /* 강조 색상 */
+#sidebar ul li:hover {
+    color: #ffcc00;
 }
 
+/* 메인 레이아웃 */
 main {
-    margin-right: 220px; /* nav와의 간격 */
+    margin-left: 220px; /* 사이드바 너비만큼 여백 */
     padding: 20px;
 }
 
+/* 각 섹션 스타일 */
 section {
-    height: 100vh; /* 각 섹션의 높이 */
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* 첫 번째 섹션 스타일 (Introduction) */
+#section1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+/* 나머지 섹션 스타일 */
+#section2, #section3, #section4 {
+    background-color: #ffffff;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
     padding: 20px;
-    background-color: white; /* 섹션 배경색 */
-    border-radius: 8px; /* 모서리 둥글게 */
-    margin-bottom: 20px; /* 섹션 간 간격 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    margin-top: 20px;
-    font-size: 24px;
-    color: #00796b; /* 섹션 제목 색상 */
+/* 기본 텍스트 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
 }
 
-section h3 {
-    margin-top: 15px;
-    font-size: 20px;
-    color: #00796b; /* 제목 색상 */
+/* 제목 스타일 */
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-section ul {
-    list-style-type: disc;
-    margin-left: 20px;
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }
 
-section ul li {
-    margin: 5px 0;
+/* 링크 스타일 */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
