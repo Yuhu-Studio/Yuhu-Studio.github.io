@@ -10,6 +10,11 @@
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
+#sidebar h3 {
+    text-align: center;
+    margin-top: 20px; /* 프로필 사진과 이름 간격 */
+    margin-bottom: 50px; /* 이름과 첫 메뉴 항목 간 간격 */
+}
 
 #sidebar ul {
     list-style-type: none;
