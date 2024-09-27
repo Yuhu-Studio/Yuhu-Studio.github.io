@@ -25,24 +25,24 @@
 }
 
 #sidebar ul li {
-    margin-bottom: 50px; /* 메뉴 항목간 간격 */
+    padding: 12px 20px; /* 패딩 조정으로 일관된 높이 유지 */
+    margin-bottom: 10px; /* 메뉴 항목간 간격 */
     cursor: pointer;
     font-size: 18px;
-    color: white;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s; /* 배경 및 색상 변화 효과 */
+    display: block; /* 블록 레벨 요소로 설정 */
+    width: calc(100% - 40px); /* 패딩을 고려한 너비 */
+    box-sizing: border-box; /* 패딩 포함하여 너비 계산 */
 }
 
 
 /* 활성화된 메뉴 항목 스타일 */
 #sidebar ul li.active {
     background-color: white; /* 배경을 흰색으로 변경 */
-    color: #28b676; /* 텍스트 색상을 Dodger Blue로 변경 */
+    color: #28b676; /* 텍스트 색상을 흰색 계통으로 변경 */
     font-weight: bold; /* 글씨를 굵게 */
-    padding: 15px 20px; /* 상하좌우 패딩 증가 */
-    display: block; /* 확실한 블록 레벨 요소로 만들기 */
-    margin: 10px 0; /* 위 아래 여백 추가 */
-    width: calc(100% - 40px); /* 전체 너비에서 양쪽 패딩을 빼고 계산 */
-    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+    
+    
 }
 
 /* 사이드바 이미지 스타일 */
