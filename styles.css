@@ -38,6 +38,11 @@
     background-color: white; /* 배경을 흰색으로 변경 */
     color: #28b676; /* 텍스트 색상을 Dodger Blue로 변경 */
     font-weight: bold; /* 글씨를 굵게 */
+    padding: 15px 20px; /* 상하좌우 패딩 증가 */
+    display: block; /* 확실한 블록 레벨 요소로 만들기 */
+    margin: 10px 0; /* 위 아래 여백 추가 */
+    width: calc(100% - 40px); /* 전체 너비에서 양쪽 패딩을 빼고 계산 */
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
 }
 
 /* 사이드바 이미지 스타일 */
