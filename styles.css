@@ -73,10 +73,15 @@ section {
 #section1 {
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; /* 컨텐츠를 수직으로 정렬 */
+    justify-content: flex-start; /* 왼쪽 정렬 */
     background-color: #f4f4f4;
+    padding-left: 50px; /* 왼쪽 패딩 */
+    padding-right: 50px; /* 오른쪽 패딩 */
+    padding-top: 20px; /* 상단 패딩 */
+    padding-bottom: 20px; /* 하단 패딩 */
 }
+
 
 /* 나머지 섹션 스타일 */
 #section2, #section3, #section4 {
