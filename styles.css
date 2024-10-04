@@ -37,7 +37,6 @@
     box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
 }
 
-
 /* 활성화된 메뉴 항목 스타일 */
 #sidebar ul li.active {
     background-color: white; /* 활성화 시 배경을 흰색으로 변경 */
