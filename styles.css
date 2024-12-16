@@ -138,55 +138,50 @@ a:hover {
 
 
 /*포트폴리오단 css 추가 */
-.portfolio-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.portfolio-table table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-item {
-    border: 2px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.portfolio-table th,
+.portfolio-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
 }
 
-.portfolio-item h3 {
-    font-size: 1.7em;
-    color: #333;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #007BFF;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.portfolio-item p {
+.portfolio-table th {
+    background-color: #f7f7f7;
     font-size: 1.1em;
-    margin-bottom: 15px;
-    color: #555;
+    font-weight: bold;
+    color: #333;
 }
 
-.portfolio-item ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.portfolio-table thead th {
+    background-color: #007BFF;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3em;
 }
 
-.portfolio-item ul li {
-    margin: 8px 0;
-    font-size: 1.05em;
-    color: #444;
+.portfolio-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
 }
 
-.portfolio-item a {
-    text-decoration: none;
+.portfolio-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.portfolio-table a {
     color: #007BFF;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.portfolio-item a:hover {
+.portfolio-table a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
-
