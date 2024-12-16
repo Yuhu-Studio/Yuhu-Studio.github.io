@@ -140,9 +140,9 @@ a:hover {
 /*포트폴리오단 css 추가 */
 
 /* Portfolio 섹션 제목 스타일 */
-.portfolio-table h2 {
+#section3 h2 {
     font-size: 2.5em;
-    color: #28b676; /* 녹색 계열 색상 적용 */
+    color: #28b676;
     text-align: center;
     margin-bottom: 20px;
     border-bottom: 3px solid #28b676;
@@ -150,66 +150,66 @@ a:hover {
     padding-bottom: 10px;
 }
 
-/* 테이블 스타일 */
-.portfolio-table table {
+/* 테이블 전체 스타일 */
+#section3 .portfolio-table table {
     width: 100%;
+    margin: 30px 0;
     border-collapse: collapse;
-    margin-bottom: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
-    background-color: #ffffff; /* 테이블 배경 */
-    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     overflow: hidden;
 }
 
-.portfolio-table th,
-.portfolio-table td {
-    border: 1px solid #ddd; /* 테두리 색상 */
+/* 테이블 헤더 스타일 */
+#section3 .portfolio-table thead th {
+    background-color: #28b676;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px;
+}
+
+/* 테이블 셀 스타일 */
+#section3 .portfolio-table th,
+#section3 .portfolio-table td {
+    border: 1px solid #ddd;
     padding: 15px;
     text-align: left;
     font-size: 1em;
+    color: #333;
 }
 
-.portfolio-table thead th {
-    background-color: #28b676; /* 헤더 녹색 배경 */
-    color: #ffffff; /* 헤더 텍스트 색상 */
-    font-size: 1.3em;
-    text-align: center;
+/* 홀수/짝수 행 색상 */
+#section3 .portfolio-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
 }
 
-.portfolio-table tbody tr:nth-child(odd) {
-    background-color: #f9f9f9; /* 홀수 행 배경 색상 */
-}
-
-.portfolio-table tbody tr:nth-child(even) {
-    background-color: #ffffff; /* 짝수 행 배경 색상 */
-}
-
-.portfolio-table th {
-    font-weight: bold;
-    color: #333333;
-    background-color: #e8f5e9; /* 헤더 바로 아래 배경을 연한 녹색으로 */
+#section3 .portfolio-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
 }
 
 /* 링크 스타일 */
-.portfolio-table a {
-    color: #28b676; /* 녹색 링크 색상 */
+#section3 .portfolio-table a {
+    color: #28b676;
     font-weight: bold;
     text-decoration: none;
 }
 
-.portfolio-table a:hover {
+#section3 .portfolio-table a:hover {
     text-decoration: underline;
-    color: #1b7f50; /* 더 어두운 녹색으로 hover */
+    color: #1b7f50;
 }
 
-/* 반응형 테이블 */
+/* 반응형 디자인 */
 @media (max-width: 768px) {
-    .portfolio-table table {
+    #section3 .portfolio-table table {
         font-size: 0.9em;
     }
 
-    .portfolio-table th,
-    .portfolio-table td {
+    #section3 .portfolio-table th,
+    #section3 .portfolio-table td {
         padding: 10px;
     }
 }
