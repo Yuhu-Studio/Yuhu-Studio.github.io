@@ -155,9 +155,9 @@ a:hover {
 
 .portfolio-item h3 {
     font-size: 1.7em;
-    color: #333;
+    color: #4CAF50; /* 프로젝트 제목 녹색 계열 */
     margin-bottom: 10px;
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 2px solid #4CAF50;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -195,10 +195,10 @@ a:hover {
 /* 포트폴리오 전체 제목 스타일 */
 .portfolio-container h2 {
     font-size: 2.5em;
-    color: #222;
+    color: #4CAF50; /* 녹색 계열로 변경 */
     margin-bottom: 20px;
     text-align: center;
-    border-bottom: 3px solid #007BFF;
+    border-bottom: 3px solid #4CAF50; /* 하단 강조선 색상도 변경 */
     display: inline-block;
     padding-bottom: 10px;
 }
