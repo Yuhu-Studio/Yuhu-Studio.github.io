@@ -135,3 +135,53 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/*포트폴리오단 css 추가 */
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.portfolio-item p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.portfolio-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-item ul li {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+.portfolio-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
