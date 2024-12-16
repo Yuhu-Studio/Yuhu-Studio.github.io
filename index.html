@@ -133,41 +133,84 @@
         <section id="section3">
             <h2>Portfolio</h2>
             <div class="portfolio-container">
+                
                 <!-- Camp_us 프로젝트 -->
                 <div class="portfolio-item">
                     <h3>&lt;CampUs&gt; 프로젝트</h3>
-                    <p>팀 단위로 캠핑장 예약 시스템 개발</p>
+                    <p><strong>소개:</strong> 팀 단위로 캠핑장 예약 시스템을 개발하여 사용자가 간편하게 캠핑장을 조회하고 예약할 수 있도록 구현한 프로젝트입니다.</p>
                     <ul>
                         <li><strong>기간:</strong> 2024.07 ~ 2024.08 (6주)</li>
-                        <li><strong>기술 스택:</strong> Java 21, MySQL, Spring Boot 3.1</li>
-                        <li><strong>주요 기능:</strong> 로그인, 조회, 필터, 예약, API 문서화</li>
-                        <li><a href="https://github.com/1COMM1T/Camp_us">GitHub 링크</a></li>
+                        <li><strong>인원:</strong> 4명</li>
+                        <li><strong>기술 스택:</strong> 
+                            <br> - 언어: Java 21, JavaScript, Python
+                            <br> - 데이터베이스: MySQL 8.0, DynamoDB
+                            <br> - 프레임워크: Spring Boot 3.1, Spring Security
+                            <br> - 서버: AWS EC2, AWS Lambda, AWS ELB
+                            <br> - 프론트엔드: Vue.js, HTML5, CSS3
+                            <br> - 테스트: Locust, Elastic APM, Swagger UI
+                        </li>
+                        <li><strong>주요 기능:</strong> 
+                            <br> - 캠핑장 정보 조회 및 필터링 기능
+                            <br> - Redis를 이용한 예약 관리 및 동시성 제어
+                            <br> - Spring Security와 AWS Cognito를 통한 사용자와 관리자 인증
+                            <br> - API 문서화를 위해 Swagger UI 사용
+                            <br> - Locust를 이용한 성능 테스트 및 Elastic APM을 통한 모니터링
+                        </li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/1COMM1T/Camp_us" target="_blank">Camp_us 프로젝트</a></li>
                     </ul>
                 </div>
+        
                 <!-- 날씨 알림 프로젝트 -->
                 <div class="portfolio-item">
                     <h3>&lt;날씨 알림&gt; 프로젝트</h3>
-                    <p>실시간 날씨 조회 및 알림 서비스 구현</p>
+                    <p><strong>소개:</strong> 사용자가 설정한 지역에 대한 실시간 날씨 정보를 제공하고, 날씨 변화에 따른 알림을 발송하는 시스템입니다.</p>
                     <ul>
                         <li><strong>기간:</strong> 2024.06 ~ 2024.07 (3주)</li>
-                        <li><strong>기술 스택:</strong> Java 17, AWS Lambda, SMTP</li>
-                        <li><strong>주요 기능:</strong> 날씨 데이터 조회, 이메일 알림</li>
-                        <li><a href="https://github.com/1COMM1T/Weather-Alarm">GitHub 링크</a></li>
+                        <li><strong>인원:</strong> 4명</li>
+                        <li><strong>기술 스택:</strong> 
+                            <br> - 언어: Java 17, JavaScript, Python
+                            <br> - 데이터베이스: MySQL
+                            <br> - 프레임워크: Spring Boot 3.1
+                            <br> - 서버: AWS Lambda, AWS EC2, SMTP
+                            <br> - 프론트엔드: React, HTML5, CSS3
+                        </li>
+                        <li><strong>주요 기능:</strong>
+                            <br> - OpenWeather API를 사용한 실시간 날씨 데이터 조회
+                            <br> - AWS Lambda와 SMTP를 활용한 이메일 알림 발송
+                            <br> - 사용자 설정에 따른 지역별 날씨 필터링
+                            <br> - 트래픽 분산 및 확장성을 위한 AWS EC2와 ELB 구성
+                        </li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/1COMM1T/Weather-Alarm" target="_blank">Weather 알림 시스템</a></li>
                     </ul>
                 </div>
+        
                 <!-- 꽃 판매업 프로젝트 -->
                 <div class="portfolio-item">
                     <h3>&lt;꽃 판매업&gt; 프로젝트</h3>
-                    <p>온라인 꽃 판매 및 관리 시스템 구축</p>
+                    <p><strong>소개:</strong> 사용자에게 꽃을 구매하고 배달할 수 있는 자유로운 플랫폼을 제공하는 프로젝트입니다.</p>
                     <ul>
                         <li><strong>기간:</strong> 2022.02 ~ 2022.04 (8주)</li>
-                        <li><strong>기술 스택:</strong> Java 8, MySQL, Spring Boot 2.6.4</li>
-                        <li><strong>주요 기능:</strong> 꽃 등록, 장바구니, 결제 관리</li>
-                        <li><a href="https://github.com/YuHaRee/Flower">GitHub 링크</a></li>
+                        <li><strong>인원:</strong> 4명</li>
+                        <li><strong>기술 스택:</strong> 
+                            <br> - 언어: Java 8, JavaScript
+                            <br> - 데이터베이스: MySQL
+                            <br> - 프레임워크: Spring Boot 2.6.4
+                            <br> - 서버: Apache Tomcat 9.0
+                            <br> - 프론트엔드: HTML5, CSS3, AJAX
+                        </li>
+                        <li><strong>주요 기능:</strong>
+                            <br> - 사용자 회원가입 및 로그인 구현
+                            <br> - 꽃 등록 및 수정, 삭제 기능 제공
+                            <br> - 장바구니에 꽃 추가 및 결제 기능
+                            <br> - 주문 내역 및 배송 상태 확인
+                        </li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/YuHaRee/Flower" target="_blank">Flower 프로젝트</a></li>
                     </ul>
                 </div>
+        
             </div>
         </section>
+
 
         
         <!-- 섹션 4번 --> 
