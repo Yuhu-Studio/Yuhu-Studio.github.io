@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     const menuItems = document.querySelectorAll('#sidebar ul li');
     const sections = document.querySelectorAll('section');
