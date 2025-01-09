@@ -227,7 +227,6 @@ a:hover {
 /* Links 섹션 제목 스타일 */
 #section4 h2 {
     font-size: 2em;
-    color: #28b676;
     margin-bottom: 20px;
     text-align: left; /* 제목을 좌측 정렬 */
 }
