@@ -214,8 +214,7 @@ a:hover {
     }
 }
 
-
-
+/* 섹션 4번 */
 /* Links 섹션 스타일 */
 #section4 {
     background-color: #ffffff; /* 흰색 배경 */
@@ -223,7 +222,6 @@ a:hover {
     margin-bottom: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
     border-radius: 10px;
-    text-align: center; /* 전체 중앙 정렬 */
 }
 
 /* Links 섹션 제목 스타일 */
@@ -231,13 +229,13 @@ a:hover {
     font-size: 2em;
     color: #28b676;
     margin-bottom: 20px;
+    text-align: left; /* 제목을 좌측 정렬 */
 }
 
 /* Links 항목 컨테이너 */
 #section4 .link-item {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 15px; /* 링크 항목 간의 간격 */
 }
 
@@ -262,17 +260,3 @@ a:hover {
     display: inline-block;
     text-decoration: none;
 }
-
-/* 반응형 디자인 */
-@media (max-width: 768px) {
-    #section4 .link-item {
-        flex-direction: column; /* 작은 화면에서 수직 정렬 */
-        align-items: flex-start; /* 왼쪽 정렬 */
-    }
-    #section4 .link-item img {
-        margin-left: 0; /* 수직 정렬 시 마진 제거 */
-        margin-top: 5px;
-    }
-}
-
-
