@@ -262,3 +262,14 @@ a:hover {
     text-decoration: none;
 }
 
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    #section4 .link-item {
+        flex-direction: column; /* 작은 화면에서 수직 정렬 */
+        align-items: flex-start; /* 왼쪽 정렬 */
+    }
+    #section4 .link-item img {
+        margin-left: 0; /* 수직 정렬 시 마진 제거 */
+        margin-top: 5px;
+    }
+}
