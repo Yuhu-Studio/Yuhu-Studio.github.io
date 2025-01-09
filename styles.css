@@ -235,7 +235,6 @@ a:hover {
 #section4 .link-item {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 15px; /* 링크 항목 간의 간격 */
 }
 
