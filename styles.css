@@ -214,3 +214,24 @@ a:hover {
     }
 }
 
+<section id="section4">
+    <h2>✨ Links ✨</h2>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <span style="margin-right: 10px;">이메일</span>
+        <a href="mailto:paekrng7@naver.com">
+            <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Contact via Naver">
+        </a>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <span style="margin-right: 10px;">Github</span>
+        <a href="https://github.com/YuHaRee">
+            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
+        </a>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <span style="margin-right: 10px;">작업물 공간</span>
+        <a href="http://paekrng3.co.kr">
+            <img src="https://img.shields.io/badge/Website-008000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge">
+        </a>
+    </div>
+</section>
